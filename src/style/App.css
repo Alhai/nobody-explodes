@@ -1,0 +1,7 @@
+.useCase-message {
+  visibility: hidden; 
+}
+
+.useCase-message.visible {
+  visibility: visible; 
+}
