@@ -3,7 +3,7 @@ import "./style/play.css";
 import { Button, Card, Container } from "@mui/material";
 import { FormEvent, useState } from "react";
 
-function Play() {
+function Bouton() {
   const [color, setColor] = useState("");
   const [pile, setPile] = useState(0);
   const [valueBtn, setValueBtn] = useState("");
@@ -22,6 +22,7 @@ function Play() {
   return (
     <div className="container">
       <h1>Nobody Explodes</h1>
+      <h2>Partie Bouton</h2>
       <Container>
         <Card sx={{ minWidth: 275 }}>
           <form onSubmit={handleSubmit}>
@@ -64,4 +65,4 @@ function Play() {
   );
 }
 
-export default Play;
+export default Bouton;

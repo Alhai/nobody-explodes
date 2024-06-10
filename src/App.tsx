@@ -2,16 +2,16 @@ import "./style/App.css";
 
 import { Route, Routes } from "react-router-dom";
 
+import Bouton from "./bouton";
 import Homepage from "./homepage";
-import Play from "./play";
 
 function App() {
-  return(
+  return (
     <Routes>
-      <Route path="/" element={<Homepage/>}></Route>
-      <Route path="/play" element={<Play/>}></Route>
+      <Route path="/" element={<Homepage />}></Route>
+      <Route path="/boutons" element={<Bouton />}></Route>
     </Routes>
-  )
+  );
 }
 
 export default App;
