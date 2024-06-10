@@ -8,6 +8,7 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       manifest: {
+        "theme_color": "#000000",
         icons: [
           {
             src: "icon-72x72.png",
